@@ -1,0 +1,89 @@
+/* Universel selector */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+/* Name Selector */
+body{
+    background-image:url(../imag/pexels-pixabay-533280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* clases selector */
+.container{
+    background-color: rgba(211, 9, 9, 0.884);
+    width: 50%;
+    margin: 10%  auto;
+    text-align: center;
+    border-radius: 15px ;
+    transition: ease-in-out 500ms ;
+}
+.container:hover{
+    box-shadow: 0px 0px 10px white ;
+    cursor: pointer;
+}
+
+/* decended Selector */
+.container h1{
+    font-size: 50px ;
+    font-family: serif;
+    color: rgb(255, 169, 202);
+}
+/* Name Selector */
+form{
+    margin-top: 30px;
+}
+/* Name Selector */
+label{
+    text-align: center;
+    color: rgb(255, 169, 202);
+    font-size: 25px ;
+    display: block;
+    font-family: serif;
+}
+/* name Selector */
+input {
+display:block ;
+text-align: center;
+width: 90%;
+color: rgb(255, 169, 202);
+background-color: tomato;
+padding: 10px;
+margin: auto;
+font-family: serif;
+}
+
+/* input::placeholder{
+    color: rgba(233, 101, 151, 0.918);
+} */
+input:focus{
+    background-color: rgba(230, 0, 88, 0.884) ;
+    color:rgb(255, 169, 202) ;
+}
+input[type="submit"]{
+    margin-top: 10px ;
+    width: 105px;
+    transition: ease-in-out 500ms;
+    font-family: serif;
+}
+
+input[type="submit"]:hover{
+    background-color: rgba(197, 38, 10, 747) ;
+    color:tomato;
+    border: 2px solid;
+}
+
+p{
+color: rgb(255, 169, 202);
+font-size: 18px;
+font-family: monospace;
+}
+
+p > a{
+    color: gray;
+    font-size: 20px;
+    font-family: serif;
+}
